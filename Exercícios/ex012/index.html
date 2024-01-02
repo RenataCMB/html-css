@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospeados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video src="video/meu-video.mp4" width="500" controls></video>
+
+    <h1>Este vídeo está usando a tag video porém com vários formatos para compatibilidade</h1>
+    <video width="500" poster="thumb/ballet.jpg" controls>
+        <source src="video/meu-video.webm" type="video/webm">
+        <source src="video/meu-video.mp4" type="video/mp4">
+        <source src="video/meu-video.ogv" type="video/ogv">
+        <p> Seu navegador não tem compatibilidade com reprodução de vídeos.</p> 
+    </video>
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kOHB85vDuow?si=iTcJjN_4oYq9EYd6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/358587554?h=46a79f6770" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
