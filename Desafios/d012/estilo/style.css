@@ -65,15 +65,30 @@ section.normal {
 
 
 section.imagem {
-    display: inline-block;
-    padding: 10px;
     background-color: rgba(0, 0, 0, 0.63);
     color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.637);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.158);
-    width: 350px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.493);
+    padding: 5px;
+    text-shadow: 2px 2px 0px black;
+}
+
+section#img01 {
+    background-image: url('../imagens/backgroud001-pq.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    
+}
+
+section#img02 {
+    background-image: url('../imagens/backgroud002-pq.jpg');
+    background-position: left center;
 }
 
 footer {
